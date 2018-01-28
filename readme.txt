@@ -45,12 +45,12 @@
  
  *INFORMACJE O FUNKCJONALNEJ DEKOMPOZYCJI PROGRAMU
  Program podzielony został na pliki źródłowe zgodnie z konwencją języka Java:
- AlgorithmTestCourse.java	- klasa implementująca tryb nr 3
+ AlgorithmTestCourse.java		- klasa implementująca tryb nr 3
  Application.java			- główna część programu
  Constant.java				- klasa zawierająca stałe użyte w projekcie
  FileCourse.java			- klasa implementująca tryb nr 1
- Graph.java					- klasa implementująca graf
- GraphGenerator.java		- klasa implementująca generator grafu
+ Graph.java				- klasa implementująca graf
+ GraphGenerator.java			- klasa implementująca generator grafu
  Postman.java				- klasa implementująca wykorzystywane algorytmy
  RandomCourse				- klasa implementująca tryb nr 2
  Warmup.java				- klasa odpowiadająca za rozgrzanie maszyny
