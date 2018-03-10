@@ -11,7 +11,7 @@ public class GraphGenerator {
 	private boolean adjacencyMatrix[][];
 	private int numOfVertices;
 
-	public GraphGenerator(int n, double probability) throws Exception {
+	GraphGenerator(int n, double probability) throws Exception {
 		numOfVertices = n;
 		adjacencyMatrix = new boolean[numOfVertices][numOfVertices];
 
