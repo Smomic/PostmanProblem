@@ -161,8 +161,7 @@ public class Application {
 		if (heuristicSize <= exactSize)
 			return 0;
 		else {
-			float inacurrency = (((float) (heuristicSize - exactSize) / exactSize)) * 100;
-			return inacurrency;
+			return (((float) (heuristicSize - exactSize) / exactSize)) * 100;
 		}
 	}
 }

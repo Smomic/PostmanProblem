@@ -24,7 +24,7 @@ public class AlgorithmTestCourse {
 		int algorithm;
 		double exactTimeTab[] = new double[counter];
 		double heuristicTimeTab[] = new double[counter];
-		double time = 0;
+		double time;
 		System.out.println();
 		System.out.println("Mediana: " + nMedian);
 

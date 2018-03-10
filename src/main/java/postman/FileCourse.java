@@ -27,7 +27,7 @@ public class FileCourse {
 
 	private static void readFromFile(String filePath, List<Integer> list) throws NumberFormatException, IOException {
 			BufferedReader buffer = new BufferedReader(new FileReader(filePath));
-			String lineJustFetched = null;
+			String lineJustFetched;
 			String[] wordsArray;
 			while (true) {
 				if ((lineJustFetched = buffer.readLine()) == null)

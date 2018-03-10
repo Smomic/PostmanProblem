@@ -13,12 +13,12 @@ public class Graph {
 	private LinkedList<Integer> adjacencyList[];
 
 	@SuppressWarnings("unchecked")
-	public Graph(int n) {
+	Graph(int n) {
 		numOfVertices = n;
 		numOfEdges = 0;
 		adjacencyList = new LinkedList[n];
 		for (int i = 0; i < n; ++i)
-			adjacencyList[i] = new LinkedList<Integer>();
+			adjacencyList[i] = new LinkedList<>();
 	}
 
 	public void addEdge(int n, int m) {
